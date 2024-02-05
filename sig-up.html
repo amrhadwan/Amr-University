@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name ="viewport" content="with=device-whidth, initial-scale=1.0">
+<title>AMR</title>
+    <link rel="stylesheet" href="a.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+      <nav> 
+         <a href="index.html"><img src="images/logofinal.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="sig-up.html">SIGN IN</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="about.html.html">ABOUT</a></li>
+                </ul>
+            </div> 
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <h2>Sign in to Amr University</h2>
+    </section>
+   <section class="signn">
+    
+    
+    </section>
+    
+    <section class="login">
+       <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Login & Registration Form</title>
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Icons -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  <div class="login">
+    <div class="login__content">
+      <div class="login__img">
+        <img src="login.svg" alt="">
+      </div>
+
+      <div class="login__forms">
+
+        <form action="" class="login__register" id="login-in">
+          <h1 class="login__title">Sign In</h1>
+
+          <div class="login__box">
+            <i class='bx bx-user login__icon'></i>
+            <input type="text" placeholder="Username" class="login__input">
+          </div>
+
+          <div class="login__box">
+            <i class='bx bx-lock-alt login__icon'></i>
+            <input type="password" placeholder="Password" class="login__input">
+          </div>
+
+          <a href="#" class="login__forgot">
+            Forgot Password?
+          </a>
+          <a href="#" class="login__button">
+            Sign In
+          </a>
+
+          <div>
+            <span class="login__account">
+              Don't have an Account?
+            </span>
+            <span class="login__signin" id="sign-up">
+              Sign Up
+            </span>
+          </div>
+        </form>
+
+        <form action="" class="login__create none" id="login-up">
+          <h1 class="login__title">Create Account</h1>
+
+
+          <div class="login__box">
+            <i class='bx bx-user login__icon'></i>
+            <input type="text" placeholder="Username" class="login__input">
+          </div>
+
+          <div class="login__box">
+            <i class='bx bx-at login__icon'></i>
+            <input type="text" placeholder="Email" class="login__input">
+          </div>
+
+          <div class="login__box">
+            <i class='bx bx-lock-alt login__icon'></i>
+            <input type="password" placeholder="Password" class="login__input">
+          </div>
+
+          <a href="#" class="login__button">
+            Sign Up
+          </a>
+
+          <div>
+            <span class="login__account">
+              Alredy have an Account?
+            </span>
+            <span class="login__signup" id="sign-in">
+              Sign In
+            </span>
+          </div>
+
+          <div class="login__social">
+            <a href="" class="login__social-icon">
+              <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="" class="login__social-icon">
+              <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="" class="login__social-icon">
+              <i class='bx bxl-google'></i>
+            </a>
+          </div>
+
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</section>
+    
+        
+  <section class="footer">
+        <h4>About Us</h4>
+        <p>hope you enjoyed exploring the web</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i><i class="fa fa-instagram"></i>
+        </div>
+        <p>@amrabuhadwan7</p>
+    </section>
+    
+<!--------JavaScript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0" ;
+    }
+    
+function hideMenu(){
+        navLinks.style.right = "-200px" ;
+    }
+    </script>
+</body>
+</html>
